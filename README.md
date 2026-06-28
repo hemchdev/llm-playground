@@ -53,7 +53,7 @@ llm-playground/
 
 Open directly in your browser — no installation needed.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/](https://colab.research.google.com/drive/1EwSYieZtmfOhGue7iEEC270sbFoWkA9L?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hemchdev/llm-playground/blob/main/llm_playground_project1.ipynb)
 
 
 ###  Option B — Local Setup
