@@ -58,14 +58,14 @@ Open directly in your browser — no installation needed.
 
 ###  Option B — Local Setup
 
-#### 🅰 Using Conda
+#### A. Using Conda
 
 ```bash
 # Create and activate the environment in one step
 conda env create -f environment.yaml && conda activate llm_playground
 ```
 
-#### 🅱 Using uv *(faster alternative)*
+#### B. Using uv *(faster alternative)*
 
 ```bash
 # Install uv if not already installed
@@ -148,9 +148,9 @@ A `ipywidgets`-based interactive UI built directly inside the notebook:
 
 | Engine | Best For | API Compatible |
 |---|---|---|
-|  **Ollama** | Local experimentation | ✅ OpenAI-compatible |
-|  **vLLM** | High-performance production inference | ✅ OpenAI-compatible |
-|  **SGLang** | Structured generation & efficient serving | ✅ OpenAI-compatible |
+|  **Ollama** | Local experimentation |  OpenAI-compatible |
+|  **vLLM** | High-performance production inference |  OpenAI-compatible |
+|  **SGLang** | Structured generation & efficient serving |  OpenAI-compatible |
 
 >  All support the **OpenAI-compatible API** — swap backends without changing your application code.
 
@@ -178,10 +178,9 @@ Upcoming projects in this series:
 - [ ]  RAG — Retrieval-Augmented Generation
 
 
-## 📄 License
+##  License
 
 This project is for **educational purposes** only.
-
 
 <div align="center">
 
