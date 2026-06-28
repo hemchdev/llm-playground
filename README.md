@@ -1,6 +1,6 @@
 <div align="center">
 
-#  LLM Playground — Project 1
+#  LLM Playground
 
 ### Building My LLM Playground from the Ground Up
 
