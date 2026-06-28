@@ -6,7 +6,7 @@
 
 *Exploring tokenization, text generation, decoding strategies, and model comparison — without the frameworks.*
 
---
+
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -16,7 +16,6 @@
 
 </div>
 
---
 
 ##  Overview
 
@@ -24,7 +23,7 @@ Instead of jumping straight into high-level frameworks, this project focuses on 
 
 > 💡 This is **Project 1** in a series. Future projects will build on this foundation using tools like **Ollama** and **LangChain**.
 
---
+
 
 ##  Learning Objectives
 
@@ -36,7 +35,6 @@ Instead of jumping straight into high-level frameworks, this project focuses on 
 -  Understand the differences between GPT-2 and modern **instruction-following LLMs**
 -  Get an overview of **inference engines** (Ollama, vLLM, SGLang) and their role
 
---
 
 ##  Project Structure
 
@@ -48,7 +46,6 @@ llm-playground/
 └──  README.md
 ```
 
---
 
 ##  Getting Started
 
@@ -56,9 +53,8 @@ llm-playground/
 
 Open directly in your browser — no installation needed.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/](https://colab.research.google.com/drive/1EwSYieZtmfOhGue7iEEC270sbFoWkA9L?usp=sharing))
 
---
 
 ###  Option B — Local Setup
 
@@ -90,7 +86,6 @@ python -m ipykernel install --user --name=llm_playground --display-name "llm_pla
 
 Then select the **llm_playground** kernel from the Jupyter kernel menu before running cells.
 
---
 
 ##  Notebook Contents
 
@@ -106,7 +101,6 @@ Explores three tokenization strategies from scratch:
 
 Also covers **tiktoken** — OpenAI's production-grade tokenizer — comparing encodings across GPT model families (`gpt2`, `cl100k_base`).
 
---
 
 ### 2️ Loading GPT-2 & Exploring the Architecture
 
@@ -114,7 +108,6 @@ Also covers **tiktoken** — OpenAI's production-grade tokenizer — comparing e
 - Inspects model architecture and layer structure
 - Counts total trainable parameters — **~124M**
 
---
 
 ### 3️ Logits, Probabilities & Decoding Strategies
 
@@ -127,7 +120,6 @@ Also covers **tiktoken** — OpenAI's production-grade tokenizer — comparing e
 |  **Greedy** | Always picks the highest-probability token | Deterministic, repetitive |
 |  **Top-p Sampling** | Samples from tokens whose cumulative probability ≥ *p* | Diverse, more natural |
 
---
 
 ### 4️ GPT-2 vs. Modern LLMs (Qwen3-0.6B)
 
@@ -139,43 +131,42 @@ Also covers **tiktoken** — OpenAI's production-grade tokenizer — comparing e
 - Demonstrates **chat templates** (`apply_chat_template`) used by instruction-tuned models
 - Side-by-side comparison on identical prompts to observe behavioral differences
 
---
 
 ### 5️ Interactive Playground *(Optional)*
 
 A `ipywidgets`-based interactive UI built directly inside the notebook:
 
-- 📝 Prompt input box
-- 🤖 Model selector — GPT-2 / Qwen3-0.6B
-- ⚙️ Decoding strategy selector — Greedy / Top-k / Top-p
-- 🌡️ Temperature slider
-- ▶️ Live text generation on button click
+-  Prompt input box
+-  Model selector — GPT-2 / Qwen3-0.6B
+-  Decoding strategy selector — Greedy / Top-k / Top-p
+-  Temperature slider
+-  Live text generation on button click
 
---
+
 
 ### 6️ Inference Engines Overview
 
 | Engine | Best For | API Compatible |
 |---|---|---|
-| 🦙 **Ollama** | Local experimentation | ✅ OpenAI-compatible |
-| ⚡ **vLLM** | High-performance production inference | ✅ OpenAI-compatible |
-| 🔷 **SGLang** | Structured generation & efficient serving | ✅ OpenAI-compatible |
+|  **Ollama** | Local experimentation | ✅ OpenAI-compatible |
+|  **vLLM** | High-performance production inference | ✅ OpenAI-compatible |
+|  **SGLang** | Structured generation & efficient serving | ✅ OpenAI-compatible |
 
 >  All support the **OpenAI-compatible API** — swap backends without changing your application code.
 
---
+
 
 ##  Tech Stack
 
 | Tool | Version | Purpose |
 |---|---|---|
-| 🔥 `torch` | Latest stable | Deep learning backbone |
-| 🤗 `transformers` | Latest stable | Model loading & text generation |
-| 🔢 `tiktoken` | Latest stable | OpenAI's fast tokenizer library |
-| 🎛️ `ipywidgets` | Latest stable | Interactive notebook widgets |
-| 📺 `IPython` | Latest stable | Rich notebook display utilities |
+|  `torch` | Latest stable | Deep learning backbone |
+|  `transformers` | Latest stable | Model loading & text generation |
+|  `tiktoken` | Latest stable | OpenAI's fast tokenizer library |
+|  `ipywidgets` | Latest stable | Interactive notebook widgets |
+|  `IPython` | Latest stable | Rich notebook display utilities |
 
---
+
 
 ##  What's Next
 
@@ -186,13 +177,11 @@ Upcoming projects in this series:
 - [ ]  Prompt engineering patterns and best practices
 - [ ]  RAG — Retrieval-Augmented Generation
 
---
 
 ## 📄 License
 
 This project is for **educational purposes** only.
 
---
 
 <div align="center">
 
